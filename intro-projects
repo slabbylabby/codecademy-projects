@@ -1,0 +1,34 @@
+/*
+Kelvin-Weather
+
+Deep in his mountain-side meteorology lab, the mad scientist Kelvin has mastered weather prediction.
+
+Recently, Kelvin began publishing his weather forecasts on his website. However there’s a problem: All of his forecasts describe the temperature in Kelvin.
+
+With our knowledge of JavaScript, let’s convert Kelvin to Celsius, then to Fahrenheit.
+*/
+
+//Solution
+let kelvin = 293;
+let celsius = kelvin - 273;
+let fahrenheit = celsius * (9/5) + 32;
+let newton = celsius * (33/100);
+
+console.log(`The temperature in Kelvin is: ${kelvin} and in Celsius is: ${celsius} and in Fahrenheit: ${fahrenheit} and in Newton: ${newton}`)
+
+
+
+/*
+Dog Years
+
+Dogs mature at a faster rate than human beings. We often say a dog’s age can be calculated in “dog years” to account for their growth compared to a human of the same age. In some ways we could say, time moves quickly for dogs — 8 years in a human’s life equates to 45 years in a dog’s life. How old would you be if you were a dog?
+
+Here’s how you convert your age from “human years” to “dog years”:
+
+The first two years of a dog’s life count as 10.5 dog years each.
+Each year following equates to 4 dog years.
+Before you start doing the math in your head, let a computer take care of it! 
+With your knowledge of math operators and variables, use JavaScript to convert your human age into dog years.
+*/
+
+//Solution
